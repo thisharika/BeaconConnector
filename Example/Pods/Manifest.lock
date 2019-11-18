@@ -1,0 +1,16 @@
+PODS:
+  - BeaconConnector (1.0.0)
+
+DEPENDENCIES:
+  - BeaconConnector (from `../BeaconConnector/`)
+
+EXTERNAL SOURCES:
+  BeaconConnector:
+    :path: "../BeaconConnector/"
+
+SPEC CHECKSUMS:
+  BeaconConnector: 165f3df28a1ea19b908a43de33bf4bea40b40dfa
+
+PODFILE CHECKSUM: ea0fb6ae94cd92704946390e0bdebb5f5054379b
+
+COCOAPODS: 1.7.5
