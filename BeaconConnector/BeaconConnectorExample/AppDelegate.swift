@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Example
+//  BeaconConnectorExample
 //
 //  Created by stone appy on 18/11/19.
 //  Copyright © 2019 stone appy. All rights reserved.

@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Thisharika" => "uyanhewagetr@gmail.com" }
   spec.platform     = :ios, "10.14"
   spec.source       = { :git => "https://github.com/thisharika/BeaconConnector.git", :tag => "1.0.0" }
-  spec.source_files = "BeaconConnector/**/*.{h,m}"
+  spec.source_files = "BeaconConnector/**/*.{h,m}", "BeaconConnector/*.swift"
   spec.swift_version = '4.0'
 
 end

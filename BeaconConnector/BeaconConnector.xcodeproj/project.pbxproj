@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		2D843CDF23825B4300379CB9 /* BeaconConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D843CDD23825B4300379CB9 /* BeaconConnector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D843CE623825B6D00379CB9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D843CE523825B6D00379CB9 /* Service.swift */; };
+		2D944C572382EE0600436B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D944C562382EE0600436B2A /* AppDelegate.swift */; };
+		2D944C592382EE0600436B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D944C582382EE0600436B2A /* ViewController.swift */; };
+		2D944C5C2382EE0600436B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D944C5A2382EE0600436B2A /* Main.storyboard */; };
+		2D944C5E2382EE0800436B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D944C5D2382EE0800436B2A /* Assets.xcassets */; };
+		2D944C612382EE0800436B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D944C5F2382EE0800436B2A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,10 +21,24 @@
 		2D843CDD23825B4300379CB9 /* BeaconConnector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeaconConnector.h; sourceTree = "<group>"; };
 		2D843CDE23825B4300379CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D843CE523825B6D00379CB9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		2D944C542382EE0600436B2A /* BeaconConnectorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconConnectorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D944C562382EE0600436B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D944C582382EE0600436B2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D944C5B2382EE0600436B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D944C5D2382EE0800436B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D944C602382EE0800436B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D944C622382EE0800436B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2D843CD723825B4300379CB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D944C512382EE0600436B2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				2D843CDC23825B4300379CB9 /* BeaconConnector */,
+				2D944C552382EE0600436B2A /* BeaconConnectorExample */,
 				2D843CDB23825B4300379CB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				2D843CDA23825B4300379CB9 /* BeaconConnector.framework */,
+				2D944C542382EE0600436B2A /* BeaconConnectorExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +74,19 @@
 				2D843CE523825B6D00379CB9 /* Service.swift */,
 			);
 			path = BeaconConnector;
+			sourceTree = "<group>";
+		};
+		2D944C552382EE0600436B2A /* BeaconConnectorExample */ = {
+			isa = PBXGroup;
+			children = (
+				2D944C562382EE0600436B2A /* AppDelegate.swift */,
+				2D944C582382EE0600436B2A /* ViewController.swift */,
+				2D944C5A2382EE0600436B2A /* Main.storyboard */,
+				2D944C5D2382EE0800436B2A /* Assets.xcassets */,
+				2D944C5F2382EE0800436B2A /* LaunchScreen.storyboard */,
+				2D944C622382EE0800436B2A /* Info.plist */,
+			);
+			path = BeaconConnectorExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,18 +121,39 @@
 			productReference = 2D843CDA23825B4300379CB9 /* BeaconConnector.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		2D944C532382EE0600436B2A /* BeaconConnectorExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D944C652382EE0900436B2A /* Build configuration list for PBXNativeTarget "BeaconConnectorExample" */;
+			buildPhases = (
+				2D944C502382EE0600436B2A /* Sources */,
+				2D944C512382EE0600436B2A /* Frameworks */,
+				2D944C522382EE0600436B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeaconConnectorExample;
+			productName = BeaconConnectorExample;
+			productReference = 2D944C542382EE0600436B2A /* BeaconConnectorExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		2D843CD123825B4300379CB9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "stone appy";
 				TargetAttributes = {
 					2D843CD923825B4300379CB9 = {
 						CreatedOnToolsVersion = 10.3;
 						LastSwiftMigration = 1030;
+					};
+					2D944C532382EE0600436B2A = {
+						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
@@ -108,6 +163,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 2D843CD023825B4300379CB9;
 			productRefGroup = 2D843CDB23825B4300379CB9 /* Products */;
@@ -115,6 +171,7 @@
 			projectRoot = "";
 			targets = (
 				2D843CD923825B4300379CB9 /* BeaconConnector */,
+				2D944C532382EE0600436B2A /* BeaconConnectorExample */,
 			);
 		};
 /* End PBXProject section */
@@ -124,6 +181,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D944C522382EE0600436B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D944C612382EE0800436B2A /* LaunchScreen.storyboard in Resources */,
+				2D944C5E2382EE0800436B2A /* Assets.xcassets in Resources */,
+				2D944C5C2382EE0600436B2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +205,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2D944C502382EE0600436B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D944C592382EE0600436B2A /* ViewController.swift in Sources */,
+				2D944C572382EE0600436B2A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D944C5A2382EE0600436B2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D944C5B2382EE0600436B2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D944C5F2382EE0800436B2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D944C602382EE0800436B2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2D843CE023825B4300379CB9 /* Debug */ = {
@@ -316,6 +411,42 @@
 			};
 			name = Release;
 		};
+		2D944C632382EE0900436B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AFR457ZF2;
+				INFOPLIST_FILE = BeaconConnectorExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = comStoneappyPractice.BeaconConnectorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D944C642382EE0900436B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AFR457ZF2;
+				INFOPLIST_FILE = BeaconConnectorExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = comStoneappyPractice.BeaconConnectorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -333,6 +464,15 @@
 			buildConfigurations = (
 				2D843CE323825B4300379CB9 /* Debug */,
 				2D843CE423825B4300379CB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D944C652382EE0900436B2A /* Build configuration list for PBXNativeTarget "BeaconConnectorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D944C632382EE0900436B2A /* Debug */,
+				2D944C642382EE0900436B2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
