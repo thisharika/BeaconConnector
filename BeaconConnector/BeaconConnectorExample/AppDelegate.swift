@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  BeaconConnectorExample
 //
-//  Created by stone appy on 18/11/19.
-//  Copyright © 2019 stone appy. All rights reserved.
+//  Created by Thisharika Rangani on 18/11/19.
+//  Copyright © 2019 Thisharika Rangani. All rights reserved.
 //
 
 import UIKit
