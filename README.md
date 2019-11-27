@@ -12,14 +12,17 @@ pod 'BeaconConnector'
 ```
 
 ## Screenshots
- ![][screen1] 
-
+| Beacon Front | Beacon Back | 
+|---|---|---|
+| ![][screen1] | ![][screen2] | 
 
 
 ## License
 
 LocationPicker is available under the MIT license. See the LICENSE file for more info.
 
-[screen1]:
+[screen1]: https://github.com/thisharika/BeaconConnector/blob/master/Screenshots/BeaconBack.jpg
+[screen2]: https://github.com/thisharika/BeaconConnector/blob/master/Screenshots/BeaconFront.jpg
+
 
 
