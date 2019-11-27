@@ -12,9 +12,7 @@ pod 'BeaconConnector'
 ```
 
 ## Screenshots
-| Beacon Front | Beacon Back | 
-|---|---|---|
-| ![][screen1] | ![][screen2] | 
+ ![][screen1] 
 
 
 ## License
