@@ -17,7 +17,7 @@ pod 'BeaconConnector'
 
 ## License
 
-LocationPicker is available under the MIT license. See the LICENSE file for more info.
+BeaconConnector is available under the MIT license. 
 
 [screen1]: https://github.com/thisharika/BeaconConnector/blob/master/Screenshots/BeaconBack.jpg
 [screen2]: https://github.com/thisharika/BeaconConnector/blob/master/Screenshots/BeaconFront.jpg
