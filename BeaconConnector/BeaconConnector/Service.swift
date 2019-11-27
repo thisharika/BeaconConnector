@@ -17,7 +17,13 @@ open class Service: UIViewController, CLLocationManagerDelegate{
     var shopEnterTime: String = ""
     var shopLeaveTime: String = ""
     
-   open override func viewDidLoad() {
+    public static let sharedInstance = Service(coder: NSCoder.init())
+    
+    required public init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
+    open override func viewDidLoad() {
         super.viewDidLoad()
     
         //CLLocationManager service setup
@@ -25,6 +31,7 @@ open class Service: UIViewController, CLLocationManagerDelegate{
         if CLLocationManager.locationServicesEnabled() {
             locationManager.requestWhenInUseAuthorization()
         }
+        print("thisharika")
     }
     
     //CLLocationManager service setup
