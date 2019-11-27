@@ -9,7 +9,7 @@
 import Foundation
 import CoreLocation
 
-public class Service: UIViewController, CLLocationManagerDelegate{
+open class Service: UIViewController, CLLocationManagerDelegate{
     
     //iBeacon tracking and responsible for requesting location permission from users
     let locationManager = CLLocationManager()
@@ -17,7 +17,7 @@ public class Service: UIViewController, CLLocationManagerDelegate{
     var shopEnterTime: String = ""
     var shopLeaveTime: String = ""
     
-    override public func viewDidLoad() {
+   open override func viewDidLoad() {
         super.viewDidLoad()
     
         //CLLocationManager service setup
